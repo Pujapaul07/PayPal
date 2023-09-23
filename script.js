@@ -1,13 +1,5 @@
 // Pages
-document.querySelectorAll('.logo','.blue-btn').forEach(logo => {
-    logo.addEventListener('click', () => {
-        document.querySelector('.front-page').style.display = 'block'
-        document.querySelector('.login-page').style.display = 'none'
-        document.querySelector('.signup-page').style.display = 'none'
-    })
-})
-
-document.querySelectorAll('.blue-btn').forEach(logo => {
+document.querySelectorAll('.logo').forEach(logo => {
     logo.addEventListener('click', () => {
         document.querySelector('.front-page').style.display = 'block'
         document.querySelector('.login-page').style.display = 'none'
